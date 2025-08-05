@@ -68,7 +68,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-> **📸 Note**: The screenshots in this README show the actual application interface. If you're forking this project, you can replace the images in the `screenshots/` folder with your own captures.
+> **📸 Note**: The screenshots in this README show the actual application interface. If you're forking this project, you can replace the images in the `Screenshots/` folder with your own captures.
 
 ## 📁 Project Structure
 
@@ -81,10 +81,10 @@ typing-speed-test-pro/
 ├── README.md           # Project documentation
 ├── LICENSE             # MIT License file
 ├── .gitignore          # Git ignore rules
-├── screenshots/        # Application screenshots
-│   ├── main-menu.png   # Start screen screenshot
-│   ├── typing-test.png # Typing interface screenshot
-│   └── results-screen.png # Results display screenshot
+├── Screenshots/        # Application screenshots
+│   ├── Main Screen.png   # Start screen screenshot
+│   ├── Typing Screen.png # Typing interface screenshot
+│   └── Result Screen.png # Results display screenshot
 └── typing_stats.json   # User statistics (created automatically)
 ```
 
@@ -114,17 +114,17 @@ typing-speed-test-pro/
 ### 🏠 Main Menu
 The clean and modern start screen with your personal best display.
 
-![Main Menu](screenshots/main-menu.png)
+![Main Menu](Screenshots/Main%20Screen.png)
 
 ### ⌨️ Typing Test in Action
 Real-time feedback with color-coded highlighting and live statistics.
 
-![Typing Test](screenshots/typing-test.png)
+![Typing Test](Screenshots/Typing%20Screen.png)
 
 ### 📊 Results Screen
 Comprehensive statistics with modern design and visual appeal.
 
-![Results Screen](screenshots/results-screen.png)
+![Results Screen](Screenshots/Result%20Screen.png)
 
 ### 🎯 Features Overview
 Visual demonstration of key features:
