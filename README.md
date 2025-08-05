@@ -114,7 +114,7 @@ typing-speed-test-pro/
 ### 🏠 Main Menu
 The clean and modern start screen with your personal best display.
 
-![Main Menu](screenshots/main-menu.png)
+![Main Menu](Screenshots/Main_Screen.png)
 
 ### ⌨️ Typing Test in Action
 Real-time feedback with color-coded highlighting and live statistics.
