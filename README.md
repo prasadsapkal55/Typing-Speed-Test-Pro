@@ -20,6 +20,16 @@ A modern, feature-rich typing speed test application built with Python and Tkint
 - **Multiple Text Samples**: 5 different paragraphs for variety
 - **Progress Visualization**: Real-time timer and progress bar
 
+## 🎨 User Interface
+
+The application features a modern, clean design with:
+- **Dark Theme**: Easy on the eyes with professional color scheme
+- **Real-time Visual Feedback**: Instant color-coded text highlighting
+- **Responsive Layout**: Clean, organized interface elements
+- **Hover Effects**: Interactive buttons with smooth transitions
+- **Progress Indicators**: Visual timer and completion tracking
+- **Statistics Dashboard**: Professional results display with colored stat boxes
+
 ## 🎯 How It Works
 
 1. **Start**: Click "Start Test" to begin
@@ -44,8 +54,8 @@ pip install pillow pynput
 ### Quick Start
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/typing-speed-test-pro.git
-cd typing-speed-test-pro
+git clone https://github.com/prasadsapkal55/Typing-Speed-Test-Pro.git
+cd Typing-Speed-Test-Pro
 ```
 
 2. Install dependencies:
@@ -58,16 +68,24 @@ pip install -r requirements.txt
 python main.py
 ```
 
+> **📸 Note**: The screenshots in this README show the actual application interface. If you're forking this project, you can replace the images in the `screenshots/` folder with your own captures.
+
 ## 📁 Project Structure
 
 ```
 typing-speed-test-pro/
-├── main.py           # Main application file
-├── settings.py       # Configuration settings
-├── text.py          # Sample text paragraphs
-├── requirements.txt  # Python dependencies
-├── README.md        # Project documentation
-└── typing_stats.json # User statistics (created automatically)
+├── main.py              # Main application file
+├── settings.py          # Configuration settings
+├── text.py             # Sample text paragraphs
+├── requirements.txt     # Python dependencies
+├── README.md           # Project documentation
+├── LICENSE             # MIT License file
+├── .gitignore          # Git ignore rules
+├── screenshots/        # Application screenshots
+│   ├── main-menu.png   # Start screen screenshot
+│   ├── typing-test.png # Typing interface screenshot
+│   └── results-screen.png # Results display screenshot
+└── typing_stats.json   # User statistics (created automatically)
 ```
 
 ## 🎮 Usage
@@ -93,14 +111,32 @@ typing-speed-test-pro/
 
 ## 🎨 Screenshots
 
-### Main Menu
-![Main Menu](screenshot-menu.png)
+### 🏠 Main Menu
+The clean and modern start screen with your personal best display.
 
-### Typing Test
-![Typing Test](screenshot-test.png)
+![Main Menu](screenshots/main-menu.png)
 
-### Results Screen
-![Results](screenshot-results.png)
+### ⌨️ Typing Test in Action
+Real-time feedback with color-coded highlighting and live statistics.
+
+![Typing Test](screenshots/typing-test.png)
+
+### 📊 Results Screen
+Comprehensive statistics with modern design and visual appeal.
+
+![Results Screen](screenshots/results-screen.png)
+
+### 🎯 Features Overview
+Visual demonstration of key features:
+
+| Feature | Description |
+|---------|-------------|
+| 🟢 **Correct Text** | Green highlighting for correctly typed characters |
+| 🔴 **Incorrect Text** | Red highlighting for mistakes |
+| 🟡 **Current Position** | Yellow highlighting for the next character |
+| ⚪ **Untyped Text** | Gray text for remaining content |
+| 📈 **Real-time Stats** | Live WPM and accuracy tracking |
+| ⏱️ **Progress Timer** | Visual countdown and progress bar |
 
 ## ⚙️ Configuration
 
